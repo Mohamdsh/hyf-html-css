@@ -1,0 +1,70 @@
+#damascuspic1{
+  position: absolute;
+  margin:20px;
+  border:3px solid grey; 
+  z-index:1;
+}
+h1{
+  position: absolute;
+  font-family:serif;
+  color:purple;
+  margin-left:50px;
+  z-index:2;
+}
+thead{
+  font-family:cursive;
+  font-size:20px;
+  background-color:rgb(242, 34, 242);
+}
+tbody{
+  font-family:monospace;
+  font-size:18px;
+  background-color:rgb(240, 209, 36);
+  text-align: center;
+}
+h2{
+  font-family:Arial;
+  background-color:yellow;
+}
+h2.ginfo{
+  background-color:rgb(209, 207, 2010);
+}
+#info{
+  margin-bottom:400px;
+}
+.pic{
+  margin-top:7px;
+  border:5px ridge;
+}
+p, ul{
+  font-size:20px;
+}
+a:hover{
+  background-color:rgb(255,220,255);
+}
+a{
+  font-weight:bold;
+}
+#sites{
+  background: rgb(209, 207, 2010);
+  height: 200px;
+  margin:auto;
+  padding:10px;
+  overflow-y: auto;
+}
+body{
+  background-color:yellow;
+  margin:10px;
+}
+.foodtable{
+  font-family:Apple Chancery;
+  font-weight:bold;
+  background-color:yellow;
+  text-align: center;
+}
+.foodimage{
+  border:2px dotted purple;
+}
+#dcoh{
+  color:purple;
+}
