@@ -1,0 +1,45 @@
+body{
+    background-image: url("https://wallpaperscraft.com/image/light_background_texture_69531_1920x1080.jpg");
+}
+h1 {
+    position: relative;
+    text-align: center;
+    font-family:"Almendra";
+    font-style: oblique;
+    font-size: 3em;
+}
+.photo {
+    position: relative;
+    border: 2px solid black;
+    opacity: 1;
+    display: block;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h2 {
+    background-color: rgb(196, 194, 94);
+    text-align: center;
+    font-family:"Almendra";
+    font-style: oblique;
+    font-size: 1.5em;
+}
+.pinfo {
+    font-family: Arial;
+    font-style: italic;
+    margin: 15px;
+    margin-block-start: auto;
+    
+}
+h3 {
+    font-family: Geneva;
+    font-style: italic;
+    margin: 8px;
+    text-align: center;
+}
+#rvideo {
+    margin: 8px;
+}
+a:hover{
+    color: mediumvioletred;
+}
