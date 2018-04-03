@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url("https://st.depositphotos.com/3283585/4655/v/950/depositphotos_46557527-stock-illustration-vector-seamless-texture-endless-background.jpg");
+}
+ul {
+    list-style-type: none;
+}
+#grid-floats {
+    overflow: hidden;
+    display: table;
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+}
+#grid-floats::after {
+    clear: both;
+}
+#grid-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+}
+.grid-item {
+    float: left;
+    margin: 5px;
+    padding: 5px;
+    border: solid 1px gray;
+    box-shadow: 2px 4px #888888;
+    background-color: floralwhite;
+    text-align: center;
+    height: 400px;
+    overflow: auto;
+}
+@media (max-width: 480px) {
+    .grid-item {
+        width:40%;
+    }
+    .grid-item:nth-child(1) {
+        width: 80%;
+        font-weight: bolder;
+        background-color: rgb(247, 242, 242);
+        clear: left;
+    }
+}
+@media (min-width:481px) and (max-width: 900px) {
+    .grid-item {
+        width:30%;
+    }
+        .grid-item:nth-child(1) {
+        width: 45%;
+        font-weight: bolder;
+        background-color: rgb(247, 242, 242);
+    }
+        .grid-item:nth-child(2) {
+        width: 45%;
+        font-weight: bolder;
+        background-color: rgb(247, 242, 242);
+    }
+}
+@media (min-width: 901px) {
+    .grid-item {
+        width: 20%;
+    }
+        .grid-item:nth-child(1) {
+        width: 40%;
+        font-weight: bolder;
+        background-color: rgb(247, 242, 242);
+    }
+        .grid-item:nth-child(4) {
+        clear: left;
+    }
+}
+img {
+    width: 75%;
+}
+h2 {
+    font-family: Geneva;
+    font-style: italic;
+    font-weight: bold;
+    background-color: lightpink;
+    text-align: center;
+    padding: 2px;
+}
+h1 {
+    font-family: arial;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 300%;
+    text-align: center;
+    padding: 2px;
+    color: green;
+    display: block;
+    animation: bounce .5s alternate infinite ease-in;
+}
+@keyframes bounce {
+        0% {
+            transform: translateY(-50%);
+        }
+        100% {
+            transform: translateY(30%);
+        }
+}
+.grid-item :hover {
+    opacity: 0.7;
+    padding: 2px;
+    cursor: crosshair;
+}
+h3 {
+    font-family: calibri;
+    font-style: oblique;
+    font-stretch: expanded;
+    font-weight: bold;
+    border: ridge;
+}
+p {
+    font-family: times;
+    font-style: italic;
+}
+
