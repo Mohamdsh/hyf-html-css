@@ -1,0 +1,237 @@
+* {
+    box-sizing:border-box
+}
+body {
+    font-family: "RO Sans",Calibri,sans-serif;
+    font-weight: normal;
+    font-size: 1.125rem;
+    line-height: 1.625;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 314px;
+}
+#navBar {
+    background-color: #01689b;
+    min-height: 100px;
+    margin-left: -10px;
+    margin-right: -15px;
+}
+.home {
+    float: left;
+    display: inline-block;
+    font-family: "RO Sans",Calibri,sans-serif;
+    text-align: center;
+    font-weight: normal;
+    font-size: 120%;
+    color: #fff;
+    text-decoration: none;
+    margin: 1%;
+}
+.mimg {
+    margin-top: -16px;
+    position: absolute;
+    width: 100%;
+    margin-left: -.5%;
+    z-index: 1;
+    height: 60%;
+}
+.table {
+    position: relative;
+    z-index: 2;
+    list-style-type: none;
+    background-color: #fff;
+    width: 40%;
+    padding: 1%;
+    height: 55%;
+    font-weight: bold;
+    margin-left: 3%;
+}
+.table li::before {
+    content: ">";
+    color: #01689b;
+    padding-right: 2%;
+}
+.table a{
+    text-decoration: none;
+    color: #01689b;
+    font-size: 140%;
+}
+#middle {
+    margin-top: 0px;
+}
+.search {
+   width: 100%;
+   position: relative
+}
+.searchTerm {
+   float: left;
+   width: 100%;
+   border: none;
+   padding: 15px;
+   height: 20px;
+   outline: none;
+   color: black;
+}
+.searchButton {
+   position: absolute;
+   z-index: 10;
+   right: -20px;
+   width: 40px;
+   height: 30px;
+   border: none;
+   background-color: black;
+   text-align: center;
+   color: #fff;
+   cursor: pointer;
+   font-size: 50px;
+   -webkit-appearance: button;
+}
+.wrap{
+   width: 30%;
+   position: absolute;
+   z-index: 3;
+   top: 50%;
+   left: 75%;
+   transform: translate(-50%, -50%);
+}
+.txt {
+    position: relative;
+    background-color: rgb(248, 252, 252);
+    margin: 5px;
+    top: 120px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    border-bottom: 1px solid gray;
+}
+a{
+    text-decoration: none;
+}
+.txt1 {
+    float: left;
+    margin-right:1%;
+    padding: 5px;
+    text-align: left;
+    padding: 5px;
+    list-style: none;
+    font-size: 25px;
+    width: 20%;
+}
+txt1::after {
+    clear: both;
+}
+h2, p {
+    font-family: "RO Sans",Calibri,sans-serif;
+    text-decoration: none;
+    color: #01689b;
+    font-size: 100%;
+}
+p {
+    color: black;
+    font-size: 75%;
+}
+#bottombar {
+    background-color: #01689b;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    min-height: 300px;
+    margin-left: -10px;
+    margin-right: -15px;
+    margin-bottom: 10px;
+    padding-left: 2px;
+    position: relative;
+    top: 300px;
+}
+#bottombar ::after {
+    clear: both;
+}
+#bottombar span {
+    float: left;
+    display: block;
+    width: 50%;
+    padding: 10px;
+    color: #fff;
+    font-size: 1.5em;
+    font-family: "RO Serif";
+    font-style: italic;
+    font-weight: normal;
+}
+.service {
+    float :left;
+    width: 25%;
+    list-style-type: none;
+    color: #fff;
+    font-family: "RO Sans",Calibri,sans-serif;
+}
+.service li a {
+    color: #fff;
+}
+.oversite {
+    list-style-type: none;
+    color: #fff;
+    font-family: "RO Sans",Calibri,sans-serif;
+}
+.oversite li a {
+    color: #fff;
+}
+#lang {
+    position: relative;
+    top: 300px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+    width: 90%;
+}
+.ned {
+    font-size: 18px;
+    margin: 2px;
+    padding: 5px;
+    font-weight: bold;
+}
+.andertaal {
+    font-size: 18px;
+    padding: 5px;
+    margin: 2px;
+    color: #01689b;
+}
+.andertaal a {
+    color: #01689b;
+}
+.andertaal a:focus {
+    outline: 2px solid #82befb;
+    outline-offset: 0;
+}
+@media (max-width: 775px) {
+    .wrap {
+        left: 50%;
+        top: 35%;
+        width: 90%;
+    }
+    .home {
+        display: none;
+    }
+    .home:nth-child(1) {
+        display:inline-block;
+    }
+    .table {
+        width: 90%;
+    }
+    .txt1 {
+        width: 90%;
+    }
+    #bottombar span {
+        width: 100%;
+        margin-bottom: -40px;
+    }
+    .service{
+        width: 40%;
+    }
+
+}
